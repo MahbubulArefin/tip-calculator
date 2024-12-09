@@ -1,0 +1,29 @@
+body {
+    background: lightslategray;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: repeating-conic-gradient(at 120% 55%, yellow, violet, blue, orange, green);
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 94%;
+    height: 90vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.tip_calculator {
+    border: 2px solid lightcyan;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    width: 412px;
+    margin: auto;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    box-shadow: 0 2px 4px 0 rgba(0, 1, 2, 0.7);
+}
